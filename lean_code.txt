@@ -1,0 +1,39 @@
+git config --global user.name "Jim Morrison"
+git config ==global user.email "thedoors@protonmail.com git config -l
+~/.gitconfig
+
+git init . (or path)
+git status
+git add . (or path)
+git commit -m "write your comment"
+
+git log 
+git log -1 (number) -p(information)
+git diff --staged (before you use commit-comand , check future logs)
+git checkout -- example.txt (delete chenges in file , before git add )
+git restore --staged example.txt (delete file in stage area)
+create .gitignore (use environment variables)
+
+git clone (url-if you use https) - clone folder on github
+git push origin - if you download directory from git hub , use just this command and push your new version on this directory
+
+
+Edit package without credits
+ssh-keygen
+git remote -v 
+git remove set-url origin *ssh_url*
+
+git branch - show your branch's
+git branch name - create branch
+git checkout - switch branch
+git branch -d name - delete branch
+git chekout -b name : create branch and auto-switch to this branch
+git merge name(where is you take your new version)
+git branch -D name - if you on "name"-branch press{git commit -m "fuck you"}
+
+git checkout hash : chekout to your before's commit + don't kill laters version
+git checkout master : comback to your laters commit
+git reset --hard HEAD~(nomber NOT HASH ) : delete laters commit and go to the before commit
+
+git push --set-upstream origin branch : create branch and push your fix 
+ogit push origin --delete branch.name : delete global branch in git-hosting's
